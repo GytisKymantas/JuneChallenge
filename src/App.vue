@@ -1,20 +1,20 @@
 <template>
-  <HeaderNew />
-  <MainNew />
-  <FooterNew />
+  <HeaderHero />
+  <MainHero />
+  <FooterHero />
 </template>
 
 <script>
-import HeaderNew from "./components/HeaderNew.vue";
-import FooterNew from "./components/FooterNew.vue";
-import MainNew from "./components/MainNew.vue";
+import HeaderHero from './components/HeaderHero.vue';
+import FooterHero from './components/FooterHero.vue';
+import MainHero from './components/MainHero.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HeaderNew,
-    FooterNew,
-    MainNew,
+    HeaderHero,
+    FooterHero,
+    MainHero,
   },
 };
 </script>
